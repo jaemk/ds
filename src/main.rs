@@ -1,10 +1,10 @@
-extern crate cons;
+extern crate ds;
 
-use cons::first;
+use ds::cons;
 
 
 pub fn main() {
-    let mut list: first::List<i32> = first::List::new()
+    let mut list: cons::List<i32> = cons::List::new()
         .conj(1).conj(2).conj(3).conj(4);
     println!("list: {}", list);
     println!("pop: {:?}", list.pop());
@@ -15,7 +15,7 @@ pub fn main() {
     println!("list[displ]: {}", list);
 
     println!();
-    let list = first::List::new()
+    let list = cons::List::new()
         .conj(0).conj(1).conj(2).conj(3).conj(4);
     println!("reversed: {}", list);
     let list = list.reverse();
