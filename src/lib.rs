@@ -1,3 +1,3 @@
 pub mod cons;
-pub mod list;
+pub mod linkedlist;
 pub mod bst;
