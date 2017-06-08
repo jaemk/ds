@@ -1,3 +1,8 @@
+/*!
+Linked List
+
+*/
+
 pub struct List<T> {
     size: usize,
     head: Link<T>,

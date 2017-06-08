@@ -1,6 +1,7 @@
 /*!
-Linked lists - first
+Linked List
 
+- from a single enum
 */
 use std::mem;
 use std::fmt;
